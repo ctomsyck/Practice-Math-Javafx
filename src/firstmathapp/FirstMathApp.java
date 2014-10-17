@@ -551,7 +551,7 @@ public class FirstMathApp extends Application {
             }
         }
 
-        //probably could have looped here
+       
         if (algebraNumbers2.size() == 12) {
             quadB = algebraNumbers2.get(5) + algebraNumbers2.get(6);
         }
@@ -585,7 +585,7 @@ public class FirstMathApp extends Application {
 
         System.out.println(algebraNumbers2.size());
 
-        //temp1 = Math.sqrt(b * b - 4 * a * c);
+       
         temp1 = (int) java.lang.Math.sqrt(quadB * quadB - 4 * quadA * quadC);
 
         root1 = (-quadB + temp1) / (2 * quadA);
